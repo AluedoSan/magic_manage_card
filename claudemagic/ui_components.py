@@ -1,7 +1,5 @@
 import streamlit as st
-import pandas as pd
 import matplotlib.pyplot as plt
-import io
 import base64
 from card_utils import get_card_image_url, validate_card
 

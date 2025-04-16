@@ -1,7 +1,3 @@
-import requests
-from PIL import Image
-import io
-import base64
 import random
 
 def get_card_image_url(card_name, edition):
