@@ -48,7 +48,7 @@ def render_add_card_form(card_manager):
             name = st.text_input("Nome da Carta", key="name")
             edition = st.text_input("Edição", key="edition")
             card_type = st.selectbox(
-                "Tipo", 
+                "Tipo",
                 ["Criatura", "Mágica Instantânea", "Feitiço", "Encantamento", "Artefato", "Planeswalker", "Terra", "Outro"]
             )
             rarity = st.selectbox(
